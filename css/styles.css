@@ -19,8 +19,6 @@
     margin-left: 20px;
     font-size: 20px;
     font-family: 'Lato', sans-serif;}
-.nav-li:nth-last-child {
-    margin-left: 0;}
 .nav-a {
     color:white;}
 .header-div {
@@ -144,6 +142,6 @@
 .box-divp {
     width: 270px;
     font-family: 'Roboto', sans-serif;
-    font-size: 18;
+    font-size: 18px;
     padding-left: 20px;
     color: grey;}
