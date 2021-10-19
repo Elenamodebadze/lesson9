@@ -5,8 +5,7 @@
     width: 100%;
     max-width: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;}
+    background-size: cover;}
 .nav-div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -53,7 +52,8 @@
     background-color: white;}
 .navigation-ul {
     margin-top: 50px;
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -61,7 +61,7 @@
         justify-content: space-around;}
 /* section styles */
 .div-section {
-    padding-top: 350px;
+    padding-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -75,8 +75,9 @@
     margin: 0 auto;
     width: 100%;}
 .small-div {
-    width: 150px;
+    max-width: 150px;
     height: 50px;
+    width: 100%;
     background-color: royalblue;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -108,20 +109,22 @@
 .text-h2 {
     font-family: 'Lato', sans-serif;
     font-size: 78px;
-    width: 600px;
-    height: 203px;
+    max-width: 600px;
+    width: 100%;
+    padding-bottom: 15px;
     padding-top: 15px;}
 .text-p {
     margin-bottom: 10px;
     height: 70px;
-    width: 600px;}
+    max-width: 600px;
+    width: 100%;}
 .image2 {
     margin-left: 10px;}
 .image3 {
     padding-top: 20px;}
 .image-div {
-    width: 600px;
-    max-width: 100%;}
+    max-width: 600px;
+    width: 100%;}
 /* section2  styles*/
 .div-section2 {
     background-image: url(../images/section-image.jpg);
@@ -141,13 +144,13 @@
         justify-content: space-around;}
 .div-text {
     padding-left: 250px;
-    width: 500px;
-    max-width: 100%;}
+    max-width: 500px;
+    width: 100%;}
 .text-h {
     font-family: 'Lato', sans-serif;
-    font-size: 78px;
-    width: 600px;
-    height: 203px;
+    font-size: 50px;
+    max-width: 600px;
+    width: 100%;
     padding-top: 15px;
     color: white;}
 .box {
@@ -190,17 +193,20 @@
         justify-content: space-around;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 1500px;
+    max-width: 1500px;
+    width: 100%;
     margin: 0 auto;}
 .box-divh2 {
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     margin-bottom: 50px;
     height: 10px;
-    width: 150px;
+    max-width: 150px;
+    width: 100%;
 }
 .box-divp {
-    width: 270px;
+    max-width: 270px;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     padding-left: 20px;
