@@ -6,8 +6,7 @@
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
-    }
+    position: fixed;}
 .nav-div {
     display: flex;
     justify-content: space-around;
@@ -37,8 +36,7 @@
 .div-li {
     width: 2px;
     height: 20px;
-    background-color: white;
-}
+    background-color: white;}
 .navigation-ul {
     margin-top: 50px;
     width: 200px;
@@ -46,6 +44,75 @@
     justify-content: space-around;}
 /* section styles */
 .div-section {
-    padding-top:  350px;
-
-}
+    padding-top: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1400px;
+    height: 1000px;
+    margin: 0 auto;
+    width: 100%;}
+.small-div {
+    width: 150px;
+    height: 50px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;}
+.tex-div {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    max-width: 800px;
+    width: 100%;}
+.text-h4 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: blue;}
+.text-h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 78px;
+    width: 600px;
+    height: 203px;
+    padding-top: 15px;}
+.text-p {
+    margin-bottom: 10px;
+    height: 70px;
+    width: 600px;}
+.image2 {
+    margin-left: 10px;}
+.image3 {
+    padding-top: 20px;}
+.image-div {
+    width: 600px;
+    max-width: 100%;}
+/* section2  styles*/
+.div-section2 {
+    background-image: url(../images/section-image.jpg);
+    height: 612px;
+    width: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;}
+.div-text {
+    padding-left: 250px;}
+.text-h {
+    font-family: 'Lato', sans-serif;
+    font-size: 78px;
+    width: 600px;
+    height: 203px;
+    padding-top: 15px;
+    color: white;}
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;}
